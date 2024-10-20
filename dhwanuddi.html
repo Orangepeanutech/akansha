@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Cute Note for You</title>
+    <style>
+        body {
+            background-color: #fce4ec; /* Soft pink background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+        }
+        .container {
+            background-color: #f8bbd0; /* Soft blush pink */
+            border: 3px solid #f48fb1; /* Light rose border */
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #f06292; /* Soft rose pink */
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #c2185b; /* Muted berry color */
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+        .heart {
+            font-size: 5rem;
+            color: #f48fb1; /* Soft rose heart */
+            animation: beat 1s infinite;
+        }
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hey Dhwani!</h1>
+        <p>Just wanted to remind you...</p>
+        <div class="heart">❤️</div>
+        <p>I love you more every day!</p>
+    </div>
+</body>
+</html>
